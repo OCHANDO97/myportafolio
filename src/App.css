@@ -52,6 +52,7 @@ body {
 }
 
 
+
 .user_info__image {
   border: 3px solid #90caf9;
   border-radius: 12px;
@@ -939,6 +940,12 @@ body {
 }
 
 @media (max-width: 1490px) {
+
+  html, body {
+    overflow-x: hidden;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
 
  body {
   padding: 0;
