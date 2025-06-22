@@ -3,6 +3,10 @@ import listaCompraImg from '../assets/img/listaCompra.png';
 import apiRestauranteImg from '../assets/img/apiRestaurante.png';
 import scrapingImg from '../assets/img/scraping.png';
 import blogImg from '../assets/img/blog.png';
+import padel from '../assets/img/gestionTorneoPadel.png';
+import restaurante from '../assets/img/gestionRestaurante.png';
+                    
+
 
 const Portafolio = () => {
   return (
@@ -54,6 +58,30 @@ const Portafolio = () => {
                         <figcaption class="gallery__title">Blog</figcaption>
                         <i class="gallery__icon fa-solid fa-code"> </i>
                     </figure>
+
+                    <figure class="gallery__item">
+                        <div class="gallery__container-image"> 
+                            <a href="https://github.com/OCHANDO97/gestionTorneoPadel" class="gallery__link"
+                            target="_blank">
+                                <img src={padel} alt="" class="gallery__image" />
+                            </a>
+                        </div>
+                        <figcaption class="gallery__title">Gestión Torneo Padel</figcaption>
+                        <i class="gallery__icon fa-solid fa-code"> </i>
+                    </figure>
+
+                    <figure class="gallery__item">
+                        <div class="gallery__container-image"> 
+                            <a href="https://github.com/OCHANDO97/gestionRestaurante" class="gallery__link"
+                            target="_blank">
+                                <img src={restaurante} alt="" class="gallery__image" />
+                            </a>
+                        </div>
+                        <figcaption class="gallery__title">Gestión Restaurante</figcaption>
+                        <i class="gallery__icon fa-solid fa-code"> </i>
+                    </figure>
+
+                    
 
                     
                 </section>

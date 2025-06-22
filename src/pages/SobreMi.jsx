@@ -12,7 +12,7 @@ const SobreMi = () => {
             <section class="about__personal-info">
                 <article class="personal-info__bio">
                     <p class="personal-info__description">
-                    Desarrollador con +2 experiencia en el desarrollo de sistemas y aplicaciones web. Especializado en
+                    Desarrollador con +3 experiencia en el desarrollo de sistemas y aplicaciones web. Especializado en
                     automatización, web scraping y análisis de datos para optimizar procesos. Destacado en la resolución de
                     problemas, mejorar la eficiencia y trabajar en entornos ágiles. Orientado a superar desafíos técnicos y contribuir
                     al éxito de los proyectos.
